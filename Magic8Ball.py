@@ -1,7 +1,8 @@
 import random 
 
 name = input("What is your name?")
-question = "Is there an afterlife?"
+question = input("What is your question?")
+# question = "Is there an afterlife?"
 answer = ""
 
 random_number = random.randint(1, 9)
